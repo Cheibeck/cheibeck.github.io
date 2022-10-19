@@ -1,0 +1,29 @@
+h1{
+    color: rgb(112, 23, 23);
+    text-align: center;
+    font-size: 30px;
+    font-style: sans-serif;
+    font-style: normal;
+}
+body{
+    background-color: rgb(155, 72, 34);
+    font-family: "roboto", sans-serif;
+}
+p{
+    color:rgb(12, 24, 8);
+    font-size: 16px;
+}
+
+a, img{
+    display: block;
+    margin:3px;
+    text-align: left;
+}
+a{
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: aqua;
+}
