@@ -1,2 +1,1 @@
-# MiPaginaWeb.github.io
-mi primer pagina web
+Pagina web personal
