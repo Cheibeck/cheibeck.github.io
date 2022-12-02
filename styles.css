@@ -3,7 +3,7 @@
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
     padding: 10px;
-    background-image: url("fondo.png");
+    background-image: url("https://i.postimg.cc/Y0K3L17j/fondo.png");
     width: 100vw;
     height: 14%;
 }
@@ -43,20 +43,32 @@ h4{
 }
 
 /* body div footer header y p */
-div, footer{
+footer{
+    background-color: #5c5c5c;
+    border: 1px solid #000000;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    display:inline-block;
+    width: 100%;
+    color:rgb(224, 235, 221);
+    font-size: 120%;
+    text-align: center;
+    
+
+}
+div{
     background-color: #5c5c5c;
     border: 1px solid #000000;
     -moz-border-radius: 7px;
     -webkit-border-radius: 7px;
     margin-bottom: 10px;
     display:inline-block;
-
 }
 body{
     background-color: rgb(10, 7, 6);
     font-family: "roboto", sans-serif;
 }
-p{
+p, ul{
     color:rgb(224, 235, 221);
     font-size: 95%;
     text-align: left;
