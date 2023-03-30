@@ -8,8 +8,10 @@
     height: 14%;
 }
 .icon{
-    height: 3%;
-    width: 3%;
+    padding: 0;
+    margin: 0;
+    height: 24%;
+    width: 24%;
 }
 
 /*titulos*/
@@ -18,6 +20,8 @@ h1{
     text-align: center;
     font-size: 300%;
     font-style: cursive;
+    padding: 0;
+    margin: 0;
 }
 h3{
     color: aliceblue;
