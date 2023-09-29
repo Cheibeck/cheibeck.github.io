@@ -67,12 +67,16 @@ p{
     margin-left: 10px;
     display: inline-block;
 }
+.p-info{
+    font-size: 24px;
+}
 .info-form{
-    width: 53%;
+    padding: 10px;
+    width: 33%;
     display: inline-block;
 }
 .info-form3{
-    width: 45%;
+    width: 65%;
     float: right;
     display: inline-block;
 }
@@ -93,7 +97,13 @@ p{
     width: 120px;
     height: 100vh;
 }
-
+ul{
+    color:rgb(224, 235, 221);
+    font-size: 150%;
+    text-align: left;
+    margin-left: 1px;
+    display: inline-block;
+}
 /*imagenes*/
 img{
     display:list-item;
@@ -101,6 +111,13 @@ img{
     margin-left:10px;
     margin-right: 30px;
     text-align: center;
+}
+.div-foto{
+    align-items: center;
+    border: none;
+}
+.img_info-topo{
+    height: 400px;
 }
 .img_cctv{
     width: 600px;
@@ -175,3 +192,57 @@ a:hover{
     color: lightskyblue;
     font-size: 20px;
 }
+
+
+
+
+iframe{
+    width: 1000px;
+    height: 700px;
+}
+
+@media (max-width: 600px){
+    iframe{
+        width: 400px;
+        height: 600px;
+    }
+    .img_info-topo{
+        width: 80px;
+        height: auto;
+    }
+    .info-form{
+        padding: 10px;
+        width: 28%;
+        display: inline-block;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h3{
+    
+            color:rgb(224, 235, 221);
+            font-size: 95%;
+            text-align: left;
+            margin-left: 10px;
+            display: inline-block;
+}
+    p{
+        color:rgb(224, 235, 221);
+        font-size: 60%;
+        text-align: left;
+        margin-left: 10px;
+        display: inline-block;
+    }
+    .p-info{
+        font-size: 60%;
+    }
+    ul{
+        
+            color:rgb(224, 235, 221);
+            font-size: 70%;
+            text-align: left;
+            margin: 0;
+            display: inline-block;
+        
+    }
+}  
