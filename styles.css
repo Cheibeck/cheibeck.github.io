@@ -192,7 +192,12 @@ a:hover{
     color: lightskyblue;
     font-size: 20px;
 }
-
+.form-contacto{
+    display: grid;
+    width: fit-content;
+    border: none;
+    
+}
 
 
 
